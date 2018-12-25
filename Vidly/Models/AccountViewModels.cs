@@ -8,7 +8,7 @@ namespace Vidly.Models
         [Required]
         [Display(Name = "Email")]
         public string Email { get; set; }
-        [Required]
+        [Required] 
         [Display(Name = "Cedula:")]
         public string DrivingLicense { get; set; }
     }
@@ -71,6 +71,8 @@ namespace Vidly.Models
         
         [Display(Name = "Driving License")]
         public string DrivingLicense { get; set; }
+        [Display(Name = "phone number")]
+        public string phone { get; set; }
         [Required]
         [EmailAddress]
         [Display(Name = "Email")]

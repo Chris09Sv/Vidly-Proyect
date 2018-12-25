@@ -206,7 +206,6 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\API\CustomerController.cs" />
     <Compile Include="Controllers\API\MoviesController.cs" />
-    <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
@@ -317,6 +316,10 @@
     <Compile Include="Migrations\201812221658362_prueba3.cs" />
     <Compile Include="Migrations\201812221658362_prueba3.Designer.cs">
       <DependentUpon>201812221658362_prueba3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812242245562_AddPhoneNumberToApp.cs" />
+    <Compile Include="Migrations\201812242245562_AddPhoneNumberToApp.Designer.cs">
+      <DependentUpon>201812242245562_AddPhoneNumberToApp.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -670,6 +673,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812221658362_prueba3.resx">
       <DependentUpon>201812221658362_prueba3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812242245562_AddPhoneNumberToApp.resx">
+      <DependentUpon>201812242245562_AddPhoneNumberToApp.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
